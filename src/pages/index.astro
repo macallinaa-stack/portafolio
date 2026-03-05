@@ -1,0 +1,1353 @@
+---
+const email = "macallinaa@gmail.com";
+const linkedin = "https://ar.linkedin.com/in/macarena-melo-10339b368";
+const portfolioFigma = "https://www.figma.com/deck/drVvSbDvcSiDT2OGw4jSvk/portafolio";
+const github = "https://github.com/macallinaa-stack";
+
+const educacion = [
+  { titulo: "Marketing Digital y Comercio Electrónico", institucion: "Universidad Tecnológica Nacional", anio: "2025-2027 (En curso)" },
+  { titulo: "Curso de Diseño UX", institucion: "Escuela Da Vinci", anio: "2024-2025" },
+  { titulo: "Curso de Growth Hacking", institucion: "Edutin Academy", anio: "Ago 2025" }
+];
+
+const herramientas = [
+  { name: "Figma", level: 5, category: "design", emoji: "🎨" },
+  { name: "Adobe XD", level: 5, category: "design", emoji: "✨" },
+  { name: "Canva", level: 5, category: "design", emoji: "🎯" },
+  { name: "Adobe Express", level: 5, category: "design", emoji: "⚡" },
+  { name: "Photoshop", level: 4, category: "design", emoji: "🖼️" },
+  { name: "Illustrator", level: 3, category: "design", emoji: "✒️" },
+  { name: "HTML5", level: 2, category: "dev", emoji: "🌐" },
+  { name: "CSS3", level: 2, category: "dev", emoji: "💅" },
+  { name: "JavaScript", level: 2, category: "dev", emoji: "⚡" },
+  { name: "React", level: 2, category: "dev", emoji: "⚛️" },
+  { name: "Astro", level: 2, category: "dev", emoji: "🚀" },
+  { name: "GitHub", level: 3, category: "dev", emoji: "🐙" },
+  { name: "Webflow", level: 2, category: "dev", emoji: "🌊" },
+  { name: "Framer", level: 3, category: "dev", emoji: "🖌️" },
+  { name: "WordPress", level: 4, category: "dev", emoji: "📝" },
+  { name: "Wix", level: 4, category: "dev", emoji: "📐" },
+  { name: "Klaviyo", level: 3, category: "marketing", emoji: "📧" },
+  { name: "HubSpot", level: 3, category: "marketing", emoji: "📊" },
+  { name: "GoHighLevel", level: 3, category: "marketing", emoji: "🚀" },
+  { name: "Mailchimp", level: 2, category: "marketing", emoji: "📨" },
+  { name: "Google Analytics", level: 3, category: "analytics", emoji: "📈" },
+  { name: "Excel", level: 4, category: "analytics", emoji: "📊" },
+  { name: "Notion", level: 2, category: "prod", emoji: "📝" },
+  { name: "Slack", level: 3, category: "prod", emoji: "💬" },
+  { name: "ChatGPT", level: 4, category: "ia", emoji: "🤖" },
+  { name: "Cursor", level: 3, category: "ia", emoji: "⚡" },
+  { name: "v0.dev", level: 3, category: "ia", emoji: "🎨" },
+  { name: "Bolt.new", level: 3, category: "ia", emoji: "🔧" },
+  { name: "Vercel", level: 3, category: "devops", emoji: "▲" },
+  { name: "Netlify", level: 3, category: "devops", emoji: "🌐" }
+];
+
+const experiencia = [
+  {
+    empresa: "Sandbox LLC (EEUU)",
+    rol: "Growth Product Designer Jr.",
+    fecha: "Oct 2025 — Presente",
+    items: [
+      "Branding integral + ADS creatives enfocados en conversión",
+      "UX/UI design para Landing Pages con HTML, CSS y JS",
+      "Estrategia de Growth: automatizaciones en Klaviyo, HubSpot y GoHighLevel",
+      "Social Media strategy: gestión de Instagram con enfoque en engagement"
+    ]
+  },
+  {
+    empresa: "Freelancer · Buenos Aires",
+    rol: "UX/UI Strategist Jr. + Graphic Designer",
+    fecha: "May 2025 — Presente",
+    items: [
+      "Diseño de identidad visual y brand strategy (logos, paletas, productos)",
+      "Estrategia de contenido para Instagram y Facebook con enfoque en viralización",
+      "UX research y wireframing para proyectos de clientes",
+      "Email marketing campaigns y copywriting"
+    ]
+  }
+];
+
+const proyectos = [
+  {
+    id: "ux-design",
+    numero: "01",
+    categoria: "Diseño UX",
+    descripcion: "Una colección de proyectos de diseño de experiencia de usuario, incluyendo landing pages, apps y más.",
+    tools: ["Figma", "Adobe XD", "Illustrator", "HTML/CSS"],
+    proyectos: [
+      { nombre: "Tooliechan", tipo: "video", url: "/videos/tooliechan.mp4" },
+      { nombre: "Lumina", tipo: "imagen", archivo: "lumina.png" },
+      { nombre: "Monarca", tipo: "video", url: "/videos/monarca.mp4" },
+      { nombre: "ABOUTFACE", tipo: "imagen", archivo: "aboutface.png" },
+      { nombre: "CHER", tipo: "imagen", archivos: ["cher1.png","cher2.png","cher3.png","cher4.png","cher5.png"] },
+      { nombre: "wisegame", tipo: "imagen", archivos: ["wisegame1.png","wisegame2.png","wisegame3.png"] },
+      { nombre: "SANDBOX", tipo: "mix", items: [{ tipo:"imagen", archivo:"sandbox1.png" },{ tipo:"video", url:"/videos/sandbox.mp4" }] }
+    ]
+  },
+  {
+    id: "branding",
+    numero: "02",
+    categoria: "Branding & Identidad Visual",
+    descripcion: "Creación de identidades visuales completas: logotipos, paletas de color, sistemas de diseño y aplicaciones de marca.",
+    tools: ["Figma", "Illustrator", "Canva"],
+    proyectos: [
+      { nombre: "Starcube", tipo: "imagen", archivo: "starcube-logo.png" },
+      { nombre: "Camoe", tipo: "imagen", archivo: "camoe-paleta.png" },
+      { nombre: "Sandbox", tipo: "imagen", archivo: "sandbox-brand.png" }
+    ]
+  },
+  {
+    id: "social",
+    numero: "03",
+    categoria: "Social Media & Contenido",
+    descripcion: "Estrategias de contenido visual enfocadas en viralización y engagement.",
+    tools: ["Canva", "Adobe Express", "Meta Ads"],
+    proyectos: [
+      { nombre: "Post 1", tipo: "imagen", archivo: "instagram-post-1.png" },
+      { nombre: "Post 2", tipo: "imagen", archivo: "instagram-post-2.png" },
+      { nombre: "Post 3", tipo: "imagen", archivo: "instagram-post-3.png" }
+    ]
+  },
+  {
+    id: "growth",
+    numero: "04",
+    categoria: "Growth & Análisis",
+    descripcion: "Análisis de campañas, optimización de conversión y automatizaciones.",
+    tools: ["Google Analytics", "Excel", "Klaviyo", "HubSpot"],
+    proyectos: [
+      { nombre: "Dashboard", tipo: "imagen", archivo: "analytics-dashboard.png" },
+      { nombre: "Campaña", tipo: "imagen", archivo: "kampana-metrics.png" }
+    ]
+  },
+  {
+    id: "email",
+    numero: "05",
+    categoria: "Email Marketing",
+    descripcion: "Campañas de email marketing con diseño atractivo y copy estratégico.",
+    tools: ["Klaviyo", "HubSpot", "Canva"],
+    proyectos: [
+      { nombre: "Campañas Email", tipo: "carrusel", archivos: ["email1.png","email2.png","email3.png"] }
+    ]
+  }
+];
+
+const translations = {
+  es: {
+    navExperiencia:"Experiencia", navSkills:"Skills", navIA:"IA", navProyectos:"Proyectos", navAportar:"Aportar", navContacto:"Contacto",
+    heroPill:"✦ Buenos Aires, Argentina",
+    heroRol:"Growth Product Designer Jr. + UX/UI Strategist Jr.",
+    heroBio1:"¡Hola! Soy Macarena, una Growth Product Designer Jr. que une diseño UX, marketing digital y growth hacking para generar impacto real. Me encanta crear piezas atractivas, cómodas y que conviertan.",
+    heroBio2:"✨ Diseño UX: Interfaces intuitivas con Figma y Adobe XD.\n📈 Growth: Landing pages optimizadas y Ads estratégicas.\n🎨 Diseño integral: Identidad visual, posts, emails y automatizaciones.",
+    btnProyectos:"Ver proyectos", btnContacto:"Enviar mensaje", btnFigma:"Ver presentación",
+    skillTitulo:"Lo que puedo hacer", skillEspanol:"Español", skillIngles:"Inglés", skillNativo:"nativo",
+    expEyebrow:"✦ Trayectoria", expTitulo:"experiencia",
+    skillsEyebrow:"✦ Skills", skillsTitulo:"Herramientas", skillsTituloSpan:"y tecnologías",
+    estudiosTitulo:"Estudios y cursos",
+    designCat:"Diseño", devCat:"Desarrollo", marketingCat:"Marketing & Growth", iaCat:"IA & Despliegue",
+    aportarEyebrow:"✨ Mi valor diferencial", aportarTitulo:"¿En qué puedo aportar?",
+    aportarSubtitulo:"Estas son mis áreas de expertise para potenciar tu proyecto:",
+    aportarBadge:"La candidata que estabas buscando", aportarFooter:"Diseño + Estrategia + IA · Todo en uno",
+    footerTitulo:"¿Trabajamos junt@s?", footerSub:"Siempre abierta a nuevos proyectos y colaboraciones",
+    footerCopyright:"© 2025 Macarena Melo · Hecho con ♡ desde Buenos Aires",
+    langBtn:"🇺🇸 EN",
+    iaEyebrow:"✦ Inteligencia Artificial", iaTitulo:"Potenciada",
+    iaSubtitulo:"No solo diseño y desarrollo, sino que potencio mi trabajo con inteligencia artificial para ser más rápida, eficiente y estar al nivel.",
+    iaCard1Titulo:"Creative Technologist", iaCard1Desc:"Uso asistentes de IA como ChatGPT, Cursor y Bolt.new para generar y depurar código en React, Astro, HTML/CSS/JS. Creo experiencias digitales completas sin ser experta programadora.",
+    iaCard2Titulo:"Diseño aumentado", iaCard2Desc:"Con v0.dev y Galileo AI acelero la creación de wireframes y propuestas de diseño que luego personalizo en Figma.",
+    iaCard3Titulo:"Contenido inteligente", iaCard3Desc:"Genero copys, estrategias de contenido y flujos de marketing con ayuda de IA, integrando en Klaviyo o HubSpot.",
+    iaCard4Titulo:"Despliegue y publicación", iaCard4Desc:"Conozco Vercel, Netlify y otras plataformas para publicar proyectos rápidamente. Este portfolio está preparado para subir a Vercel con un solo comando."
+  },
+  en: {
+    navExperiencia:"Experience", navSkills:"Skills", navIA:"AI", navProyectos:"Projects", navAportar:"Value", navContacto:"Contact",
+    heroPill:"✦ Buenos Aires, Argentina",
+    heroRol:"Growth Product Designer Jr. + UX/UI Strategist Jr.",
+    heroBio1:"Hi! I'm Macarena, a Growth Product Designer Jr. who combines UX design, digital marketing and growth hacking to create real impact. I love creating attractive, comfortable pieces that convert.",
+    heroBio2:"✨ UX Design: Intuitive interfaces with Figma and Adobe XD.\n📈 Growth: Optimized landing pages and strategic Ads.\n🎨 Integral design: Visual identity, posts, emails and automations.",
+    btnProyectos:"View projects", btnContacto:"Send message", btnFigma:"View presentation",
+    skillTitulo:"What I can do", skillEspanol:"Spanish", skillIngles:"English", skillNativo:"native",
+    expEyebrow:"✦ Journey", expTitulo:"experience",
+    skillsEyebrow:"✦ Skills", skillsTitulo:"Tools", skillsTituloSpan:"& technologies",
+    estudiosTitulo:"Studies & courses",
+    designCat:"Design", devCat:"Development", marketingCat:"Marketing & Growth", iaCat:"AI & Deployment",
+    aportarEyebrow:"✨ My value", aportarTitulo:"How can I contribute?",
+    aportarSubtitulo:"These are my areas of expertise to enhance your project:",
+    aportarBadge:"The candidate you were looking for", aportarFooter:"Design + Strategy + AI · All in one",
+    footerTitulo:"Let's work together?", footerSub:"Always open to new projects and collaborations",
+    footerCopyright:"© 2025 Macarena Melo · Made with ♡ from Buenos Aires",
+    langBtn:"🇦🇷 ES",
+    iaEyebrow:"✦ Artificial Intelligence", iaTitulo:"Powered",
+    iaSubtitulo:"I don't just design and develop, I empower my work with artificial intelligence to be faster, more efficient and cutting-edge.",
+    iaCard1Titulo:"Creative Technologist", iaCard1Desc:"I use AI assistants like ChatGPT, Cursor and Bolt.new to generate and debug code in React, Astro, HTML/CSS/JS. I create complete digital experiences without being an expert programmer.",
+    iaCard2Titulo:"Augmented design", iaCard2Desc:"With v0.dev and Galileo AI I accelerate wireframing and design proposals, then customize them in Figma.",
+    iaCard3Titulo:"Smart content", iaCard3Desc:"I generate copy, content strategies and marketing flows with AI assistance, integrating into Klaviyo or HubSpot.",
+    iaCard4Titulo:"Deployment & publishing", iaCard4Desc:"I know Vercel, Netlify and other platforms to quickly publish projects. This portfolio is ready to deploy to Vercel with one command."
+  }
+};
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Macarena Melo · Creative Technologist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --bg: #faf7f5;
+  --text: #2d2d2d;
+  --text-soft: #5a5a5a;
+  --accent: #e84a5f;
+  --accent-soft: #ffe2e8;
+  --white: #ffffff;
+  --border: #eaeaea;
+  --shadow: 0 10px 30px -15px rgba(232,74,95,.2);
+  --shadow-strong: 0 20px 40px -15px rgba(232,74,95,.3);
+  --transition: all .3s ease;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Quicksand', sans-serif;
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box }
+html { scroll-behavior:smooth }
+body {
+  background:var(--bg); color:var(--text);
+  font-family:var(--font-sans); font-weight:400;
+  line-height:1.6; overflow-x:hidden; cursor:none;
+}
+a, button { cursor:none; text-decoration:none }
+section { position:relative; z-index:1 }
+.wrap { max-width:1280px; margin:0 auto; padding:0 3rem }
+@media (max-width:768px) { .wrap { padding:0 1.5rem } }
+
+/* CURSOR */
+#cursor {
+  position:fixed; width:32px; height:32px;
+  pointer-events:none; z-index:9999;
+  transform:translate(-50%,-50%);
+  transition:transform .2s ease, opacity .2s ease;
+  filter:drop-shadow(0 4px 8px rgba(232,74,95,.4));
+}
+#cursor svg { width:100%; height:100%; fill:var(--accent); animation:heartbeat 1.2s ease-in-out infinite }
+#cursor.hover { transform:translate(-50%,-50%) scale(1.6); filter:drop-shadow(0 8px 16px rgba(232,74,95,.5)) }
+#cursor.hidden { opacity:0; }
+@keyframes heartbeat {
+  0%,100%{ transform:scale(1) }
+  25%{ transform:scale(1.1) }
+  35%{ transform:scale(1) }
+  45%{ transform:scale(1.05) }
+  55%{ transform:scale(1) }
+}
+
+/* MODAL — z-index MUY alto para estar siempre encima de todo */
+#modal {
+  position:fixed; inset:0;
+  background:rgba(0,0,0,.95); backdrop-filter:blur(10px);
+  z-index:99998;   /* debajo solo del botón X */
+  display:none; align-items:center; justify-content:center;
+  cursor:default;
+  animation:fadeIn .25s ease;
+}
+#modal * { cursor:default }
+#modal-inner {
+  position:relative; width:90vw; height:90vh;
+  display:flex; align-items:center; justify-content:center;
+}
+/* X SIEMPRE ENCIMA DE TODO — z-index máximo */
+#modal-close {
+  position:absolute; top:-44px; right:-44px;
+  width:48px; height:48px; border-radius:50%;
+  background:var(--accent); color:#fff; border:none;
+  font-size:26px; line-height:1;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 4px 20px rgba(232,74,95,.6);
+  z-index:99999; /* el más alto de toda la página */
+  transition:transform .2s ease, background .2s ease;
+}
+#modal-close:hover { transform:scale(1.15); background:#ff6b8b }
+#modal-prev, #modal-next {
+  position:absolute; top:50%; transform:translateY(-50%);
+  width:52px; height:52px; border-radius:50%;
+  background:rgba(255,255,255,.15); backdrop-filter:blur(4px);
+  border:1px solid rgba(255,255,255,.25); color:#fff;
+  font-size:26px; display:none; align-items:center; justify-content:center;
+  transition:var(--transition);
+  z-index:99998;
+}
+#modal-prev { left:12px }
+#modal-next { right:12px }
+#modal-prev:hover, #modal-next:hover {
+  background:var(--accent); border-color:var(--accent);
+  transform:translateY(-50%) scale(1.08);
+}
+#modal-counter {
+  display:none; position:absolute; bottom:-38px; left:50%; transform:translateX(-50%);
+  color:#fff; font-size:.9rem;
+  background:rgba(0,0,0,.55); padding:.3rem 1.1rem;
+  border-radius:50px; backdrop-filter:blur(4px);
+  z-index:99998;
+}
+#modal-body { max-width:100%; max-height:90vh; display:flex; align-items:center; justify-content:center; }
+#modal-body img, #modal-body video {
+  max-width:100%; max-height:85vh;
+  object-fit:contain; border-radius:8px;
+  box-shadow:0 20px 40px rgba(0,0,0,.5); display:block;
+}
+@keyframes fadeIn { from{opacity:0} to{opacity:1} }
+
+/* FLOATING DECOR */
+#floating-decor { position:fixed; inset:0; pointer-events:none; z-index:0; overflow:hidden }
+.floating-item {
+  position:absolute; font-family:var(--font-serif);
+  color:var(--accent-soft); opacity:.15; font-size:2rem;
+  animation:float 20s linear infinite;
+}
+@keyframes float {
+  0%{ transform:translate(0,0) rotate(0deg) }
+  33%{ transform:translate(30px,20px) rotate(120deg) }
+  66%{ transform:translate(-20px,40px) rotate(240deg) }
+  100%{ transform:translate(0,0) rotate(360deg) }
+}
+
+/* NAV */
+nav {
+  position:fixed; top:0; left:0; right:0; z-index:100;
+  display:flex; justify-content:space-between; align-items:center;
+  padding:1.25rem 3rem;
+  background:rgba(255,255,255,.9); backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+}
+.nav-logo { font-family:var(--font-serif); font-size:1.2rem; font-style:italic; color:var(--accent) }
+.nav-links { display:flex; gap:3rem }
+.nav-links a { font-size:.8rem; letter-spacing:.1em; text-transform:uppercase; color:var(--text-soft); transition:color .2s }
+.nav-links a:hover { color:var(--accent) }
+.lang-btn {
+  background:var(--white); border:1px solid var(--border);
+  border-radius:40px; padding:.4rem 1rem;
+  font-size:.75rem; transition:var(--transition); font-family:var(--font-sans);
+}
+.lang-btn:hover { background:var(--accent-soft); border-color:var(--accent); transform:scale(1.02) }
+@media (max-width:860px) { nav { padding:1rem 1.5rem } .nav-links { gap:1.5rem } }
+@media (max-width:600px) { .nav-links { display:none } }
+
+/* HERO */
+.hero {
+  min-height:100vh; display:flex; flex-direction:column;
+  justify-content:center; padding:8rem 0 5rem;
+  background:
+    radial-gradient(circle at 10% 30%, var(--accent-soft) 0%, transparent 30%),
+    radial-gradient(circle at 90% 70%, var(--accent-soft) 0%, transparent 30%);
+}
+.hero-inner { display:grid; grid-template-columns:1.2fr .9fr; gap:5rem; align-items:center }
+@media (max-width:860px) { .hero-inner { grid-template-columns:1fr; gap:3rem } }
+.hero-pill {
+  display:inline-block; background:var(--white); color:var(--accent);
+  padding:.4rem 1.5rem; border-radius:50px;
+  font-size:.75rem; letter-spacing:.15em; text-transform:uppercase;
+  border:1px solid var(--accent-soft); margin-bottom:2rem;
+}
+.hero-h1 {
+  font-family:var(--font-serif); font-size:clamp(4rem,8vw,6rem);
+  font-weight:400; line-height:1; margin-bottom:1rem;
+}
+.hero-h1 .italic {
+  font-style:italic; color:var(--accent); position:relative; display:inline-block;
+}
+.hero-h1 .italic::after {
+  content:'✦'; font-size:1.5rem; position:absolute;
+  top:-10px; right:-25px; color:var(--accent); opacity:.5;
+}
+.hero-sub { font-size:1.2rem; color:var(--text-soft); margin-bottom:2rem; font-weight:300 }
+.hero-bio {
+  background:rgba(255,255,255,.9); backdrop-filter:blur(5px);
+  padding:2rem; border-radius:16px; border:1px solid var(--accent-soft);
+  margin-bottom:2.5rem; color:var(--text-soft); font-size:.95rem;
+  line-height:1.8; max-width:550px;
+}
+.hero-bio p { margin-bottom:.8rem }
+.hero-btns { display:flex; gap:1rem; flex-wrap:wrap }
+
+/* BUTTONS */
+.btn {
+  display:inline-flex; align-items:center; gap:.6rem;
+  padding:.8rem 2rem; border-radius:50px;
+  font-size:.9rem; font-weight:500; transition:var(--transition);
+  border:none; font-family:var(--font-sans);
+}
+.btn-primary  { background:var(--text); color:var(--white) }
+.btn-primary:hover  { background:var(--accent); transform:translateY(-3px) }
+.btn-secondary { background:transparent; border:1.5px solid var(--border); color:var(--text) }
+.btn-secondary:hover { border-color:var(--accent); color:var(--accent); transform:translateY(-3px) }
+.btn-outline  { background:transparent; border:2px solid var(--accent); color:var(--accent) }
+.btn-outline:hover  { background:var(--accent); color:#fff; transform:translateY(-3px) }
+.btn svg { width:16px; height:16px; stroke:currentColor; stroke-width:2; fill:none }
+
+/* SKILL CARD */
+.skill-card {
+  background:var(--white); border-radius:24px; padding:2rem;
+  border:1px solid var(--border); position:relative; box-shadow:var(--shadow);
+  transition:var(--transition);
+}
+.skill-card:hover { border-color:var(--accent) }
+.skill-pin {
+  position:absolute; top:-12px; left:50%; transform:translateX(-50%);
+  width:28px; height:28px; background:var(--accent); border-radius:50%;
+  display:flex; align-items:center; justify-content:center; color:#fff;
+  font-size:.8rem; box-shadow:0 4px 12px rgba(232,74,95,.4);
+}
+.skill-title { font-family:var(--font-serif); font-size:1.2rem; text-align:center; margin-bottom:1.5rem }
+.skill-tags { display:flex; flex-wrap:wrap; gap:.5rem; justify-content:center; margin-bottom:1.5rem }
+.skill-tag {
+  background:var(--accent-soft); padding:.3rem 1rem; border-radius:50px;
+  font-size:.75rem; color:var(--accent); font-weight:500;
+}
+.skill-divider { height:1px; background:var(--border); margin:1.2rem 0 }
+.skill-langs { display:flex; justify-content:center; gap:2rem; font-size:.85rem; color:var(--text-soft) }
+.skill-langs span { display:flex; align-items:center; gap:.3rem }
+.skill-langs b { color:var(--accent); font-weight:500 }
+
+/* SECTION HEADER */
+.section-header { text-align:center; margin-bottom:4rem }
+.section-eyebrow {
+  display:inline-block; font-size:.75rem; letter-spacing:.2em;
+  text-transform:uppercase; color:var(--accent); margin-bottom:.8rem;
+  border-bottom:1px solid var(--accent-soft); padding-bottom:.2rem;
+}
+.section-title { font-family:var(--font-serif); font-size:clamp(2.5rem,5vw,3.5rem); font-weight:400 }
+.section-title .accent { color:var(--accent); font-style:italic }
+
+/* EXPERIENCE */
+.exp-grid { display:grid; grid-template-columns:1fr 1fr; gap:2rem }
+@media (max-width:700px) { .exp-grid { grid-template-columns:1fr } }
+.exp-card {
+  background:var(--white); border:1px solid var(--border);
+  border-radius:20px; padding:2rem; transition:var(--transition); box-shadow:var(--shadow);
+}
+.exp-card:hover { transform:translateY(-5px); border-color:var(--accent); box-shadow:var(--shadow-strong) }
+.exp-date { font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; color:var(--accent); margin-bottom:.5rem }
+.exp-role { font-family:var(--font-serif); font-size:1.6rem; font-weight:500; margin-bottom:.3rem }
+.exp-co { font-size:.9rem; color:var(--text-soft); margin-bottom:1.5rem }
+.exp-list { list-style:none }
+.exp-list li { font-size:.9rem; color:var(--text-soft); padding-left:1.5rem; position:relative; margin-bottom:.6rem }
+.exp-list li::before { content:'→'; position:absolute; left:0; color:var(--accent) }
+
+/* TOOLS */
+.tools-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1rem; margin-top:2rem }
+.tool-card {
+  background:var(--white); border:1px solid var(--border);
+  border-radius:12px; padding:1rem 1.5rem;
+  display:flex; justify-content:space-between; align-items:center; transition:var(--transition);
+}
+.tool-card:hover { border-color:var(--accent); transform:translateX(5px) }
+.tool-left { display:flex; align-items:center; gap:.8rem }
+.tool-emoji { font-size:1.5rem }
+.tool-name { font-weight:500; font-size:.9rem }
+.tool-bar { width:80px; height:6px; background:var(--border); border-radius:10px; overflow:hidden }
+.tool-fill { height:100%; background:var(--accent); width:0; border-radius:10px; transition:width 1s ease }
+
+/* IA SECTION */
+.ia-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.8rem; margin-top:2rem }
+.ia-card {
+  background:var(--white); border-radius:20px; padding:2rem;
+  border:1px solid var(--border); box-shadow:var(--shadow);
+  transition:var(--transition); display:flex; flex-direction:column; gap:1rem;
+}
+.ia-card:hover { transform:translateY(-5px); border-color:var(--accent); box-shadow:var(--shadow-strong) }
+.ia-icon { font-size:2.5rem }
+.ia-card h3 { font-family:var(--font-serif); font-size:1.4rem; color:var(--accent) }
+.ia-card p { color:var(--text-soft); font-size:.95rem; line-height:1.6 }
+.ia-tags { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.5rem }
+.ia-tag { background:var(--accent-soft); padding:.2rem 1rem; border-radius:50px; font-size:.75rem; color:var(--accent) }
+
+/* APORTAR */
+.aportar-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.8rem; margin-top:2rem }
+.aportar-card {
+  background:var(--white); border-radius:30px; padding:2rem;
+  box-shadow:var(--shadow); border:1px solid var(--border); transition:var(--transition);
+}
+.aportar-card:hover { transform:translateY(-5px); box-shadow:var(--shadow-strong); border-color:var(--accent) }
+.aportar-card.destacada {
+  border:2px solid var(--accent); box-shadow:var(--shadow-strong);
+  transform:scale(1.02); position:relative; overflow:hidden;
+}
+.aportar-card.destacada::before {
+  content:'✨'; position:absolute; top:-20px; right:-20px;
+  font-size:5rem; opacity:.1; transform:rotate(15deg); pointer-events:none;
+}
+.aportar-icon {
+  font-size:2.5rem; background:var(--accent-soft); width:60px; height:60px;
+  display:flex; align-items:center; justify-content:center; border-radius:20px; margin-bottom:1rem;
+}
+.aportar-title { font-family:var(--font-serif); font-size:1.6rem; color:var(--accent); line-height:1.2; margin-bottom:.5rem }
+.aportar-sub { color:var(--text-soft); font-size:.9rem; margin-bottom:1rem }
+.aportar-tags { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:1rem }
+.aportar-tag { background:var(--accent-soft); padding:.3rem 1rem; border-radius:50px; font-size:.8rem }
+.aportar-mini-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; margin-top:2rem }
+.aportar-mini-card {
+  background:rgba(255,255,255,.7); backdrop-filter:blur(5px);
+  border-radius:20px; padding:1.5rem; border:1px solid var(--border);
+  text-align:center; transition:var(--transition);
+}
+.aportar-mini-card:hover { background:var(--white); transform:translateY(-3px) }
+.aportar-mini-emoji { font-size:2rem; margin-bottom:.5rem }
+.aportar-mini-title { font-weight:600; margin-bottom:.3rem }
+.aportar-mini-text { font-size:.8rem; color:var(--text-soft) }
+.aportar-badge {
+  background:var(--accent); color:#fff; display:inline-block;
+  padding:1rem 3rem; border-radius:60px; box-shadow:0 20px 30px -10px var(--accent);
+  transform:rotate(-1deg); font-family:var(--font-serif); font-size:1.8rem;
+  font-style:italic; margin-top:4rem;
+}
+
+/* EDUCATION */
+.edu-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:2rem; margin-top:2rem }
+.edu-card {
+  background:var(--white); border:1px solid var(--border);
+  border-radius:20px; padding:1.5rem; transition:var(--transition); box-shadow:var(--shadow);
+}
+.edu-card:hover { border-color:var(--accent); transform:translateY(-5px) }
+.edu-title { font-family:var(--font-serif); font-size:1.1rem; font-weight:500; margin-bottom:.5rem }
+.edu-institution { color:var(--accent); margin-bottom:.3rem; font-size:.9rem }
+.edu-year {
+  font-size:.8rem; color:var(--text-soft);
+  background:var(--accent-soft); display:inline-block;
+  padding:.2rem 1rem; border-radius:50px;
+}
+
+/* PROJECTS */
+.projects-grid {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:1.5rem; margin-top:2rem;
+}
+@media (max-width:1000px) { .projects-grid { grid-template-columns:repeat(2,1fr) } }
+@media (max-width:600px)  { .projects-grid { grid-template-columns:1fr } }
+
+.project-card {
+  background:var(--white); border-radius:20px; overflow:hidden;
+  border:1px solid var(--border); box-shadow:var(--shadow);
+  transition:var(--transition); display:flex; flex-direction:column;
+}
+.project-card:hover { transform:translateY(-5px); border-color:var(--accent); box-shadow:var(--shadow-strong) }
+
+.project-media {
+  position:relative;
+  width:100%; height:210px;
+  background:var(--accent-soft);
+  overflow:hidden;
+}
+.project-media img, .project-media video {
+  position:absolute; inset:0;
+  width:100%; height:100%;
+  object-fit:cover; object-position:top center;
+  transition:transform .4s ease;
+  display:block;
+}
+.project-card:hover .project-media img { transform:scale(1.04) }
+
+.media-badge {
+  position:absolute; top:10px; right:10px;
+  background:rgba(0,0,0,.55); backdrop-filter:blur(4px);
+  color:#fff; width:32px; height:32px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  font-size:1rem; z-index:2; pointer-events:none;
+}
+.multi-badge {
+  position:absolute; bottom:10px; right:10px;
+  background:var(--accent); color:#fff;
+  padding:.2rem .8rem; border-radius:50px;
+  font-size:.7rem; font-weight:600; z-index:2; pointer-events:none;
+}
+
+.project-info { padding:1.5rem; flex:1; display:flex; flex-direction:column }
+.project-info h4 { font-family:var(--font-serif); font-size:1.2rem; margin-bottom:.5rem }
+.project-tools-mini { display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:1rem }
+.tool-mini { background:var(--accent-soft); color:var(--accent); padding:.2rem .6rem; border-radius:30px; font-size:.65rem; font-weight:500 }
+.project-actions { display:flex; gap:.8rem; margin-top:auto; align-items:center; flex-wrap:wrap }
+.project-btn, a.project-btn {
+  flex:1; padding:.55rem 1rem; border-radius:30px; font-size:.8rem; font-weight:600;
+  text-align:center; transition:var(--transition);
+  border:1.5px solid var(--border);
+  background:var(--white); color:var(--text-soft);
+  font-family:var(--font-sans);
+  display:inline-flex; align-items:center; justify-content:center;
+  line-height:1; text-decoration:none;
+}
+.project-btn.primary, a.project-btn.primary {
+  background:var(--accent); color:#fff !important;
+  border-color:var(--accent);
+}
+.project-btn:hover, a.project-btn:hover { transform:translateY(-2px); box-shadow:var(--shadow) }
+.project-btn.primary:hover, a.project-btn.primary:hover { background:#ff6b8b; border-color:#ff6b8b }
+
+.project-gallery { display:grid; grid-template-columns:repeat(2,1fr); gap:.5rem; margin-bottom:1rem }
+.gallery-item { aspect-ratio:1/1; background:var(--accent-soft); border-radius:10px; overflow:hidden }
+.gallery-item img { width:100%; height:100%; object-fit:cover; transition:var(--transition) }
+.gallery-item:hover img { transform:scale(1.1) }
+
+.proj-category-header { margin:4rem 0 2rem; padding-bottom:1rem; border-bottom:2px dashed var(--accent-soft) }
+.proj-category-header h3 { font-family:var(--font-serif); font-size:2rem; color:var(--accent); margin-bottom:.3rem }
+.proj-category-header p { color:var(--text-soft); max-width:700px }
+
+/* CARRUSEL */
+.carrusel {
+  position:relative; width:100%; aspect-ratio:16/9;
+  overflow:hidden; border-radius:12px; margin-bottom:1rem;
+}
+.carrusel-track { display:flex; height:100%; transition:transform .3s ease }
+.carrusel-slide { flex:0 0 100%; height:100% }
+.carrusel-slide img { width:100%; height:100%; object-fit:cover }
+.carrusel-btn {
+  position:absolute; top:50%; transform:translateY(-50%);
+  width:30px; height:30px; border-radius:50%;
+  background:rgba(255,255,255,.8); border:none; color:var(--accent);
+  font-size:1.2rem; display:flex; align-items:center; justify-content:center;
+  z-index:2; transition:var(--transition); font-family:var(--font-sans);
+}
+.carrusel-btn:hover { background:var(--accent); color:#fff }
+.carrusel-prev { left:10px }
+.carrusel-next { right:10px }
+.carrusel-dots { display:flex; justify-content:center; gap:.3rem; margin-top:.5rem }
+.carrusel-dot {
+  width:6px; height:6px; border-radius:50%; background:var(--border);
+  border:none; transition:var(--transition);
+}
+.carrusel-dot.active { background:var(--accent); transform:scale(1.4) }
+
+/* BACK TO TOP */
+.back-to-top {
+  position:fixed; bottom:2rem; right:2rem;
+  width:56px; height:56px; border-radius:50%;
+  background:var(--accent); color:#fff; border:none;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 4px 20px rgba(232,74,95,.4); transition:all .3s ease;
+  z-index:999; opacity:0; visibility:hidden; transform:translateY(10px);
+}
+.back-to-top.visible { opacity:1; visibility:visible; transform:translateY(0) }
+.back-to-top:hover { background:#ff6b8b; transform:translateY(-3px) scale(1.1); box-shadow:0 8px 25px rgba(232,74,95,.6) }
+
+/* FOOTER */
+footer {
+  background:var(--text); color:var(--white);
+  padding:6rem 2rem 3rem; text-align:center; margin-top:4rem;
+  position:relative; overflow:hidden;
+}
+footer::before {
+  content:'♡ ♡ ♡'; position:absolute; top:20px; left:0; width:100%;
+  font-size:4rem; opacity:.08; color:var(--accent); letter-spacing:.3em;
+  animation:slide 20s linear infinite; pointer-events:none;
+}
+@keyframes slide { from{transform:translateX(-50%)} to{transform:translateX(50%)} }
+footer h2 { font-family:var(--font-serif); font-size:clamp(2.5rem,5vw,3rem); font-weight:400; margin-bottom:1rem; color:#fff }
+.footer-sub { color:var(--accent-soft); margin-bottom:2.5rem; font-size:1.1rem }
+.footer-links { display:flex; justify-content:center; gap:2rem; flex-wrap:wrap; margin-bottom:3rem }
+.footer-links a {
+  color:var(--white); font-size:.95rem; transition:var(--transition);
+  display:inline-flex; align-items:center; gap:.6rem;
+  background:rgba(255,255,255,.08); padding:.6rem 1.8rem;
+  border-radius:50px; border:1px solid rgba(255,255,255,.1);
+}
+.footer-links a:hover { background:var(--accent); transform:translateY(-3px); border-color:var(--accent) }
+.footer-copyright { font-size:.8rem; opacity:.5 }
+@media (max-width:768px) {
+  .back-to-top { bottom:1.5rem; right:1.5rem; width:48px; height:48px }
+  .footer-links { gap:1rem }
+  .footer-links a { padding:.5rem 1.2rem; font-size:.85rem }
+}
+
+/* REVEAL */
+.reveal { opacity:0; transform:translateY(40px); transition:opacity .8s ease, transform .8s ease }
+.reveal.visible { opacity:1; transform:translateY(0) }
+.delay-1 { transition-delay:.1s }
+.delay-2 { transition-delay:.2s }
+.delay-3 { transition-delay:.3s }
+
+.cat-label { font-size:1.2rem; margin:2rem 0 1rem; font-weight:400; color:var(--accent); text-align:center; }
+</style>
+</head>
+<body>
+
+<div id="cursor" aria-hidden="true">
+  <svg viewBox="0 0 32 32">
+    <path d="M16 27s-1-.8-2.5-2C9 21.4 4 17.2 4 11.5 4 8 6.7 5 10.5 5c2 0 3.9 1 5.5 2.8C17.6 6 19.5 5 21.5 5 25.3 5 28 8 28 11.5c0 5.7-5 9.9-9.5 13.5C17 26.2 16 27 16 27z"/>
+  </svg>
+</div>
+
+<div id="floating-decor" aria-hidden="true">
+  <div class="floating-item" style="top:10%;left:5%">✦</div>
+  <div class="floating-item" style="top:30%;right:8%;animation-delay:-2s">✧</div>
+  <div class="floating-item" style="bottom:20%;left:12%;animation-delay:-5s">♢</div>
+  <div class="floating-item" style="bottom:40%;right:15%;animation-delay:-8s">✤</div>
+</div>
+
+<nav>
+  <a href="#inicio" class="nav-logo">Macarena Melo</a>
+  <div class="nav-links" id="nav-links">
+    <a href="#experiencia" id="nav-experiencia">Experiencia</a>
+    <a href="#habilidades" id="nav-skills">Skills</a>
+    <a href="#proyectos" id="nav-proyectos">Proyectos</a>
+    <a href="#ia" id="nav-ia">IA</a>
+    <a href="#aportar" id="nav-aportar">Aportar</a>
+    <a href="#contacto" id="nav-contacto">Contacto</a>
+  </div>
+  <button class="lang-btn" id="lang-btn">🇺🇸 EN</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <div class="hero-inner">
+      <div class="reveal">
+        <span class="hero-pill" id="hero-pill">✦ Buenos Aires, Argentina</span>
+        <h1 class="hero-h1">Macarena <span class="italic">Melo.</span></h1>
+        <p class="hero-sub" id="hero-rol">Growth Product Designer Jr. + UX/UI Strategist Jr.</p>
+        <div class="hero-bio">
+          <p id="hero-bio1">¡Hola! Soy Macarena, una Growth Product Designer Jr. que une diseño UX, marketing digital y growth hacking para generar impacto real. Me encanta crear piezas atractivas, cómodas y que conviertan.</p>
+          <p id="hero-bio2">✨ Diseño UX: Interfaces intuitivas con Figma y Adobe XD.<br>📈 Growth: Landing pages optimizadas y Ads estratégicas.<br>🎨 Diseño integral: Identidad visual, posts, emails y automatizaciones.</p>
+        </div>
+        <div class="hero-btns">
+          <a href="#proyectos" class="btn btn-primary" id="btn-proyectos">
+            <span>Ver proyectos</span>
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href={`https://mail.google.com/mail/?view=cm&to=${email}`} target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="btn-contacto">
+            <span>Enviar mensaje</span>
+            <svg viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </a>
+          <a href={portfolioFigma} target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btn-figma">
+            <span>Ver presentación</span>
+            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="skill-card reveal delay-1">
+        <div class="skill-pin" aria-hidden="true">✦</div>
+        <h3 class="skill-title" id="skill-titulo">Lo que puedo hacer</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">UX/UI Design</span>
+          <span class="skill-tag">Growth Marketing</span>
+          <span class="skill-tag">Branding</span>
+          <span class="skill-tag">Social Media</span>
+          <span class="skill-tag">Email Marketing</span>
+          <span class="skill-tag">IA + Desarrollo</span>
+        </div>
+        <div class="skill-divider"></div>
+        <div class="skill-langs">
+          <span>🇦🇷 <b id="skill-espanol">Español</b> <span id="skill-nativo">nativo</span></span>
+          <span>🇺🇸 <b id="skill-ingles">Inglés</b> B1</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCIA -->
+<section id="experiencia" style="padding:5rem 0">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="section-eyebrow" id="exp-eyebrow">✦ Trayectoria</span>
+      <h2 class="section-title">Mi <span class="accent" id="exp-titulo">experiencia</span></h2>
+    </div>
+    <div class="exp-grid">
+      {experiencia.map((exp, i) => (
+        <div class="exp-card reveal" style={`transition-delay:${0.1 * i}s`}>
+          <div class="exp-date">{exp.fecha}</div>
+          <h3 class="exp-role">{exp.rol}</h3>
+          <p class="exp-co">{exp.empresa}</p>
+          <ul class="exp-list">
+            {exp.items.map(item => <li>{item}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- HABILIDADES -->
+<section id="habilidades" style="background:var(--white);padding:5rem 0">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="section-eyebrow" id="skills-eyebrow">✦ Skills</span>
+      <h2 class="section-title"><span id="skills-titulo">Herramientas</span> <span class="accent" id="skills-titulo-span">y tecnologías</span></h2>
+    </div>
+    <div style="margin-bottom:3rem">
+      <h3 class="cat-label" id="estudios-titulo">Estudios y cursos</h3>
+      <div class="edu-grid">
+        {educacion.map(edu => (
+          <div class="edu-card">
+            <h4 class="edu-title">{edu.titulo}</h4>
+            <p class="edu-institution">{edu.institucion}</p>
+            <span class="edu-year">{edu.anio}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+    <h3 class="cat-label" id="design-cat">Diseño</h3>
+    <div class="tools-grid reveal">
+      {herramientas.filter(t => t.category === 'design').map(t => (
+        <div class="tool-card">
+          <div class="tool-left"><span class="tool-emoji">{t.emoji}</span><span class="tool-name">{t.name}</span></div>
+          <div class="tool-bar"><div class="tool-fill" data-level={t.level}></div></div>
+        </div>
+      ))}
+    </div>
+    <h3 class="cat-label" id="dev-cat">Desarrollo</h3>
+    <div class="tools-grid reveal">
+      {herramientas.filter(t => t.category === 'dev').map(t => (
+        <div class="tool-card">
+          <div class="tool-left"><span class="tool-emoji">{t.emoji}</span><span class="tool-name">{t.name}</span></div>
+          <div class="tool-bar"><div class="tool-fill" data-level={t.level}></div></div>
+        </div>
+      ))}
+    </div>
+    <h3 class="cat-label" id="marketing-cat">Marketing & Growth</h3>
+    <div class="tools-grid reveal">
+      {herramientas.filter(t => ['marketing','analytics','prod'].includes(t.category)).map(t => (
+        <div class="tool-card">
+          <div class="tool-left"><span class="tool-emoji">{t.emoji}</span><span class="tool-name">{t.name}</span></div>
+          <div class="tool-bar"><div class="tool-fill" data-level={t.level}></div></div>
+        </div>
+      ))}
+    </div>
+    <h3 class="cat-label" id="ia-cat">IA & Despliegue</h3>
+    <div class="tools-grid reveal">
+      {herramientas.filter(t => ['ia','devops'].includes(t.category)).map(t => (
+        <div class="tool-card">
+          <div class="tool-left"><span class="tool-emoji">{t.emoji}</span><span class="tool-name">{t.name}</span></div>
+          <div class="tool-bar"><div class="tool-fill" data-level={t.level}></div></div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<div id="proyectos" style="padding:2rem 0"></div>
+
+{proyectos.map((cat) => (
+  <div style="margin-bottom:4rem">
+    <div class="wrap">
+      <div class="proj-category-header reveal">
+        <h3>{cat.categoria}</h3>
+        <p>{cat.descripcion}</p>
+        <div style="display:flex;gap:.5rem;margin-top:1rem;flex-wrap:wrap">
+          {cat.tools.map(tool => <span class="tool-mini">{tool}</span>)}
+        </div>
+      </div>
+      <div class="projects-grid">
+        {cat.proyectos.map((proy, i) => {
+          const catId = cat.id;
+          return (
+            <div class="project-card reveal" style={`transition-delay:${.05*i}s`}>
+              <div class="project-media">
+                {proy.tipo === 'video' && (
+                  <>
+                    <video src={proy.url} muted loop playsinline></video>
+                    <span class="media-badge">▶️</span>
+                  </>
+                )}
+                {proy.tipo === 'imagen' && proy.archivo && !proy.archivos && (
+                  <>
+                    <img src={`/imagenes/${catId}/${proy.archivo}`} alt={proy.nombre} loading="lazy" />
+                    <span class="media-badge">🖼️</span>
+                  </>
+                )}
+                {proy.archivos && proy.archivos.length > 0 && (
+                  <>
+                    <img src={`/imagenes/${catId}/${proy.archivos[0]}`} alt={proy.nombre} loading="lazy" />
+                    <span class="media-badge">🖼️</span>
+                    <span class="multi-badge">+{proy.archivos.length}</span>
+                  </>
+                )}
+                {proy.tipo === 'mix' && proy.items && (
+                  <>
+                    {proy.items.find(x => x.tipo === 'imagen') ? (
+                      <img src={`/imagenes/${catId}/${proy.items.find(x => x.tipo === 'imagen').archivo}`} alt={proy.nombre} loading="lazy" />
+                    ) : (
+                      <video src={proy.items.find(x => x.tipo === 'video').url} muted loop playsinline></video>
+                    )}
+                    <span class="media-badge">🎬</span>
+                    <span class="multi-badge">{proy.items.length} archivos</span>
+                  </>
+                )}
+                {proy.tipo === 'carrusel' && proy.archivos && (
+                  <>
+                    <div class="carrusel" id={`c-${catId}-${i}`}>
+                      <div class="carrusel-track">
+                        {proy.archivos.map((a, idx) => (
+                          <div class="carrusel-slide" key={idx}>
+                            <img src={`/imagenes/${catId}/${a}`} alt={`${proy.nombre} ${idx+1}`} loading="lazy" />
+                          </div>
+                        ))}
+                      </div>
+                      <button class="carrusel-btn carrusel-prev" onclick={`carruselMover('${catId}-${i}',-1);event.stopPropagation()`}>‹</button>
+                      <button class="carrusel-btn carrusel-next" onclick={`carruselMover('${catId}-${i}',1);event.stopPropagation()`}>›</button>
+                    </div>
+                    <div class="carrusel-dots" id={`d-${catId}-${i}`}>
+                      {proy.archivos.map((_, idx) => (
+                        <button class={`carrusel-dot${idx===0?' active':''}`} onclick={`carruselIr('${catId}-${i}',${idx});event.stopPropagation()`}></button>
+                      ))}
+                    </div>
+                  </>
+                )}
+              </div>
+
+              <div class="project-info">
+                <h4>{proy.nombre}</h4>
+                {proy.archivos && proy.tipo !== 'carrusel' && (
+                  <div class="project-gallery">
+                    {proy.archivos.slice(0,2).map((arch, idx) => (
+                      <div class="gallery-item" onclick={`modalImagen('${catId}','${arch}','${proy.nombre}')`} key={idx}>
+                        <img src={`/imagenes/${catId}/${arch}`} alt={`${proy.nombre} ${idx+1}`} loading="lazy" />
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {proy.tipo === 'mix' && proy.items && (
+                  <div class="project-gallery">
+                    {proy.items.filter(x => x.tipo === 'imagen').slice(0,2).map((item, idx) => (
+                      <div class="gallery-item" onclick={`modalImagen('${catId}','${item.archivo}','${proy.nombre}')`} key={idx}>
+                        <img src={`/imagenes/${catId}/${item.archivo}`} alt={`${proy.nombre} ${idx+1}`} loading="lazy" />
+                      </div>
+                    ))}
+                  </div>
+                )}
+                <div class="project-tools-mini">
+                  {proy.tipo === 'video' && <span class="tool-mini">🎬 Video</span>}
+                  {proy.tipo === 'carrusel' && proy.archivos && <span class="tool-mini">📸 {proy.archivos.length} imágenes</span>}
+                  {proy.tipo === 'mix' && <span class="tool-mini">🎬 Mix</span>}
+                </div>
+                <div class="project-actions">
+                  {proy.tipo === 'video' && (
+                    <button class="project-btn primary" onclick={`modalVideo('${proy.url}','${proy.nombre}')`}>Ver video</button>
+                  )}
+                  {proy.tipo === 'carrusel' && proy.archivos && (
+                    <button class="project-btn primary" onclick={`modalGaleria('${catId}',${JSON.stringify(proy.archivos)},'${proy.nombre}')`}>Ver galería</button>
+                  )}
+                  {proy.tipo === 'imagen' && proy.archivo && !proy.archivos && (
+                    <button class="project-btn primary" onclick={`modalImagen('${catId}','${proy.archivo}','${proy.nombre}')`}>Ver imagen</button>
+                  )}
+                  {proy.archivos && proy.tipo !== 'carrusel' && (
+                    <button class="project-btn primary" onclick={`modalGaleria('${catId}',${JSON.stringify(proy.archivos)},'${proy.nombre}')`}>Ver galería</button>
+                  )}
+                  {proy.tipo === 'mix' && proy.items && (
+                    <button class="project-btn primary" onclick={`modalMix('${catId}',${JSON.stringify(proy.items)},'${proy.nombre}')`}>Ver todo</button>
+                  )}
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+))}
+
+<!-- MODAL — X siempre encima de todo -->
+<div id="modal">
+  <div id="modal-inner">
+    <button id="modal-close" aria-label="Cerrar">×</button>
+    <button id="modal-prev" aria-label="Anterior">‹</button>
+    <button id="modal-next" aria-label="Siguiente">›</button>
+    <div id="modal-counter"></div>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<!-- IA -->
+<section id="ia" style="padding:5rem 0;background:var(--bg)">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="section-eyebrow" id="ia-eyebrow">✦ Inteligencia Artificial</span>
+      <h2 class="section-title" id="ia-titulo">Potenciada <span class="accent">por IA</span></h2>
+      <p style="max-width:700px;margin:1rem auto 0;color:var(--text-soft)" id="ia-subtitulo">
+        No solo diseño y desarrollo, sino que potencio mi trabajo con inteligencia artificial para ser más rápida, eficiente y estar al nivel.
+      </p>
+    </div>
+    <div class="ia-grid">
+      <div class="ia-card reveal">
+        <span class="ia-icon">🤖</span>
+        <h3 id="ia-card1-titulo">Creative Technologist</h3>
+        <p id="ia-card1-desc">Uso asistentes de IA como ChatGPT, Cursor y Bolt.new para generar y depurar código en React, Astro, HTML/CSS/JS. Creo experiencias digitales completas sin ser experta programadora.</p>
+        <div class="ia-tags"><span class="ia-tag">ChatGPT</span><span class="ia-tag">Cursor</span><span class="ia-tag">Bolt.new</span><span class="ia-tag">v0.dev</span></div>
+      </div>
+      <div class="ia-card reveal delay-1">
+        <span class="ia-icon">🎨</span>
+        <h3 id="ia-card2-titulo">Diseño aumentado</h3>
+        <p id="ia-card2-desc">Con v0.dev y Galileo AI acelero la creación de wireframes y propuestas de diseño que luego personalizo en Figma.</p>
+        <div class="ia-tags"><span class="ia-tag">v0.dev</span><span class="ia-tag">Galileo AI</span><span class="ia-tag">Midjourney</span></div>
+      </div>
+      <div class="ia-card reveal delay-2">
+        <span class="ia-icon">⚡</span>
+        <h3 id="ia-card3-titulo">Contenido inteligente</h3>
+        <p id="ia-card3-desc">Genero copys, estrategias de contenido y flujos de marketing con ayuda de IA, integrando en Klaviyo o HubSpot.</p>
+        <div class="ia-tags"><span class="ia-tag">Copy.ai</span><span class="ia-tag">Jasper</span><span class="ia-tag">ChatGPT</span></div>
+      </div>
+      <div class="ia-card reveal delay-3">
+        <span class="ia-icon">▲</span>
+        <h3 id="ia-card4-titulo">Despliegue y publicación</h3>
+        <p id="ia-card4-desc">Conozco Vercel, Netlify y otras plataformas para publicar proyectos rápidamente. Este portfolio está preparado para subir a Vercel con un solo comando.</p>
+        <div class="ia-tags"><span class="ia-tag">Vercel</span><span class="ia-tag">Netlify</span><span class="ia-tag">GitHub</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APORTAR -->
+<section id="aportar" style="padding:4rem 0;background:linear-gradient(135deg,var(--white) 0%,var(--accent-soft) 100%);position:relative;overflow:hidden">
+  <div style="position:absolute;inset:0;opacity:.08;pointer-events:none;z-index:0" aria-hidden="true">
+    <div style="position:absolute;top:10%;left:5%;font-size:8rem;color:var(--accent)">✦</div>
+    <div style="position:absolute;bottom:10%;right:5%;font-size:8rem;color:var(--accent)">⚡</div>
+  </div>
+  <div class="wrap" style="position:relative;z-index:1">
+    <div class="section-header reveal" style="margin-bottom:2rem">
+      <span class="section-eyebrow" id="aportar-eyebrow" style="background:var(--accent);color:#fff;padding:.2rem 1.2rem;border-radius:50px;border:none;font-size:.7rem">✨ Mi valor diferencial</span>
+      <h2 class="section-title" style="margin-bottom:.5rem"><span id="aportar-titulo">¿En qué puedo aportar?</span></h2>
+      <p style="font-size:1rem;color:var(--text-soft);max-width:700px;margin:.5rem auto 0" id="aportar-subtitulo">Estas son mis áreas de expertise para potenciar tu proyecto:</p>
+    </div>
+    <div class="aportar-grid">
+      <div class="aportar-card destacada reveal delay-1">
+        <div class="aportar-icon">🎨</div>
+        <h3 class="aportar-title">UX/UI Design Jr</h3>
+        <p class="aportar-sub">Creando experiencias que enamoran</p>
+        <div style="background:var(--accent-soft);height:4px;width:100%;border-radius:10px;margin:1rem 0"></div>
+        <p style="color:var(--text)"><span style="font-weight:600;color:var(--accent)">+</span> Interfaces intuitivas · Wireframing · Prototipado · Testeo con usuarios</p>
+      </div>
+      <div class="aportar-card reveal delay-2">
+        <div class="aportar-icon">📈</div>
+        <h3 class="aportar-title">Growth Marketing</h3>
+        <p class="aportar-sub">Estrategias de crecimiento basadas en datos</p>
+        <div class="aportar-tags"><span class="aportar-tag">Embudos de conversión</span><span class="aportar-tag">A/B Testing</span><span class="aportar-tag">Customer Journey</span><span class="aportar-tag">Analítica</span></div>
+      </div>
+      <div class="aportar-card reveal delay-3">
+        <div class="aportar-icon">✨</div>
+        <h3 class="aportar-title">Branding</h3>
+        <p class="aportar-sub">Identidades visuales que cuentan historias</p>
+        <div class="aportar-tags"><span class="aportar-tag">Diseño de logo</span><span class="aportar-tag">Paletas de color</span><span class="aportar-tag">Sistemas visuales</span><span class="aportar-tag">Guías de marca</span></div>
+      </div>
+      <div class="aportar-card reveal">
+        <div class="aportar-icon">📱</div>
+        <h3 class="aportar-title">Redes Sociales</h3>
+        <p class="aportar-sub">Contenido que conecta y viraliza</p>
+        <div class="aportar-tags"><span class="aportar-tag">Estrategia de contenido</span><span class="aportar-tag">Community management</span><span class="aportar-tag">Diseño de posts</span><span class="aportar-tag">Historias y reels</span></div>
+      </div>
+      <div class="aportar-card reveal">
+        <div class="aportar-icon">📧</div>
+        <h3 class="aportar-title">Email Marketing</h3>
+        <p class="aportar-sub">Automatizaciones y newsletters</p>
+        <div class="aportar-tags"><span class="aportar-tag">Klaviyo</span><span class="aportar-tag">HubSpot</span><span class="aportar-tag">Flujos automáticos</span><span class="aportar-tag">Copywriting</span></div>
+      </div>
+      <div class="aportar-card reveal">
+        <div class="aportar-icon">🚀</div>
+        <h3 class="aportar-title">Landing Pages</h3>
+        <p class="aportar-sub">Optimizadas para conversión</p>
+        <div class="aportar-tags"><span class="aportar-tag">HTML/CSS/JS</span><span class="aportar-tag">Framer</span><span class="aportar-tag">Webflow</span><span class="aportar-tag">UX/UI</span></div>
+      </div>
+      <div class="aportar-card reveal">
+        <div class="aportar-icon">🖌️</div>
+        <h3 class="aportar-title">Diseño Gráfico</h3>
+        <p class="aportar-sub">Identidad visual y comunicación</p>
+        <div class="aportar-tags"><span class="aportar-tag">Branding</span><span class="aportar-tag">Piezas gráficas</span><span class="aportar-tag">Editorial</span><span class="aportar-tag">Packaging</span></div>
+      </div>
+    </div>
+    <div class="aportar-mini-grid">
+      <div class="aportar-mini-card reveal"><div class="aportar-mini-emoji">🔷</div><div class="aportar-mini-title">Wireframing</div><div class="aportar-mini-text">De paper a digital</div></div>
+      <div class="aportar-mini-card reveal delay-1"><div class="aportar-mini-emoji">📊</div><div class="aportar-mini-title">Métricas y KPIs</div><div class="aportar-mini-text">Datos que cuentan historias</div></div>
+      <div class="aportar-mini-card reveal delay-2"><div class="aportar-mini-emoji">⚡</div><div class="aportar-mini-title">Automatizaciones</div><div class="aportar-mini-text">Klaviyo · HubSpot · GHL</div></div>
+      <div class="aportar-mini-card reveal"><div class="aportar-mini-emoji">🎯</div><div class="aportar-mini-title">Design Systems</div><div class="aportar-mini-text">Consistencia y escalabilidad</div></div>
+      <div class="aportar-mini-card reveal delay-1"><div class="aportar-mini-emoji">✍️</div><div class="aportar-mini-title">Copywriting</div><div class="aportar-mini-text">Palabras que venden</div></div>
+      <div class="aportar-mini-card reveal delay-2"><div class="aportar-mini-emoji">📢</div><div class="aportar-mini-title">ADS Creative</div><div class="aportar-mini-text">Creatividades que convierten</div></div>
+    </div>
+    <div class="reveal delay-3" style="text-align:center;margin-top:3rem">
+      <div class="aportar-badge" id="aportar-badge">
+        <span style="font-size:1.8rem;margin-right:1rem">🏆</span>
+        <span>"La candidata que estabas buscando"</span>
+      </div>
+      <p style="margin-top:1rem;color:var(--text-soft);font-size:.9rem" id="aportar-footer">✨ Diseño + Estrategia + IA · Todo en uno</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contacto">
+  <h2 class="reveal" id="footer-titulo">¿Trabajamos junt@s?</h2>
+  <p class="footer-sub reveal delay-1" id="footer-sub">Siempre abierta a nuevos proyectos y colaboraciones</p>
+  <div class="footer-links reveal delay-1">
+    <a href={`https://mail.google.com/mail/?view=cm&to=${email}`} target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" width="16" height="16"><rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" fill="none"/><path d="M22 6l-10 7L2 6" stroke="currentColor" fill="none"/></svg>
+      <span>{email}</span>
+    </a>
+    <a href={linkedin} target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" width="16" height="16"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z" stroke="currentColor" fill="none"/><rect x="2" y="9" width="4" height="12" stroke="currentColor" fill="none"/><circle cx="4" cy="4" r="2" stroke="currentColor" fill="none"/></svg>
+      <span>LinkedIn</span>
+    </a>
+    <a href={portfolioFigma} target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" width="16" height="16"><rect x="3" y="3" width="18" height="18" stroke="currentColor" fill="none"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18" stroke="currentColor" fill="none"/></svg>
+      <span>Portfolio</span>
+    </a>
+    <a href={github} target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" width="16" height="16"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" stroke="currentColor" fill="none"/></svg>
+      <span>GitHub</span>
+    </a>
+  </div>
+  <p class="footer-copyright reveal delay-2" id="footer-copyright">© 2025 Macarena Melo · Hecho con ♡ desde Buenos Aires</p>
+</footer>
+
+<button id="back-to-top" class="back-to-top" aria-label="Volver arriba">
+  <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" fill="none" stroke-width="2.5">
+    <path d="M12 19V5M5 12l7-7 7 7"/>
+  </svg>
+</button>
+
+<script>
+const cursor = document.getElementById('cursor');
+document.addEventListener('mousemove', e => {
+  cursor.style.left = e.clientX + 'px';
+  cursor.style.top  = e.clientY + 'px';
+});
+document.querySelectorAll('a,button,.exp-card,.tool-card,.edu-card,.project-card,.aportar-card,.aportar-mini-card,.ia-card,.gallery-item,.carrusel-btn,.carrusel-dot').forEach(el => {
+  el.addEventListener('mouseenter', () => cursor.classList.add('hover'));
+  el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
+});
+
+// ── MODAL ──────────────────────────────────────────────
+let modalItems = [], modalIdx = 0;
+const modal        = document.getElementById('modal');
+const modalBody    = document.getElementById('modal-body');
+const modalClose   = document.getElementById('modal-close');
+const modalPrev    = document.getElementById('modal-prev');
+const modalNext    = document.getElementById('modal-next');
+const modalCounter = document.getElementById('modal-counter');
+
+function modalShow() {
+  renderModal();
+  const many = modalItems.length > 1;
+  modalPrev.style.display    = many ? 'flex' : 'none';
+  modalNext.style.display    = many ? 'flex' : 'none';
+  modalCounter.style.display = many ? 'block' : 'none';
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  cursor.classList.add('hidden'); // ocultar cursor custom
+}
+
+function renderModal() {
+  const item = modalItems[modalIdx];
+  if (!item) return;
+  if (item.type === 'image') {
+    modalBody.innerHTML = `<img src="${item.src}" alt="${item.titulo}">`;
+  } else {
+    modalBody.innerHTML = `<video src="${item.src}" controls autoplay></video>`;
+  }
+  if (modalItems.length > 1) modalCounter.textContent = `${modalIdx+1} / ${modalItems.length}`;
+}
+
+function closeModal() {
+  // Pausar y limpiar video antes de cerrar
+  const v = modalBody.querySelector('video');
+  if (v) { v.pause(); v.removeAttribute('src'); v.load(); }
+  modal.style.display = 'none';
+  document.body.style.overflow = '';
+  cursor.classList.remove('hidden'); // restaurar cursor
+}
+
+window.modalImagen = (catId, archivo, titulo) => {
+  modalItems = [{ type:'image', src:`/imagenes/${catId}/${archivo}`, titulo }];
+  modalIdx = 0; modalShow();
+};
+window.modalVideo = (url, titulo) => {
+  modalItems = [{ type:'video', src:url, titulo }];
+  modalIdx = 0; modalShow();
+};
+window.modalGaleria = (catId, archivos, titulo) => {
+  const arr = Array.isArray(archivos) ? archivos : JSON.parse(archivos);
+  modalItems = arr.map(a => ({ type:'image', src:`/imagenes/${catId}/${a}`, titulo }));
+  modalIdx = 0; modalShow();
+};
+window.modalMix = (catId, items, titulo) => {
+  const arr = Array.isArray(items) ? items : JSON.parse(items);
+  modalItems = arr.map(x => ({
+    type: x.tipo === 'video' ? 'video' : 'image',
+    src:  x.tipo === 'video' ? x.url : `/imagenes/${catId}/${x.archivo}`,
+    titulo
+  }));
+  modalIdx = 0; modalShow();
+};
+
+// Botón X — cierra el modal
+modalClose.addEventListener('click', e => { e.stopPropagation(); closeModal(); });
+
+// Prev / Next
+modalPrev.addEventListener('click', e => {
+  e.stopPropagation();
+  modalIdx = (modalIdx - 1 + modalItems.length) % modalItems.length;
+  renderModal();
+});
+modalNext.addEventListener('click', e => {
+  e.stopPropagation();
+  modalIdx = (modalIdx + 1) % modalItems.length;
+  renderModal();
+});
+
+// Click fuera del contenido cierra
+modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+
+// Teclado
+document.addEventListener('keydown', e => {
+  if (modal.style.display !== 'flex') return;
+  if (e.key === 'Escape')     closeModal();
+  if (e.key === 'ArrowLeft')  { modalIdx = (modalIdx-1+modalItems.length)%modalItems.length; renderModal(); }
+  if (e.key === 'ArrowRight') { modalIdx = (modalIdx+1)%modalItems.length; renderModal(); }
+});
+
+// ── CARRUSEL ───────────────────────────────────────────
+window.carruselMover = (uid, dir) => {
+  const c = document.getElementById(`c-${uid}`);
+  if (!c) return;
+  const track = c.querySelector('.carrusel-track');
+  const total = track.children.length;
+  const m = track.style.transform.match(/-?(\d+)/);
+  let cur = m ? Math.abs(parseInt(m[1])/100) : 0;
+  cur = (cur + dir + total) % total;
+  track.style.transform = `translateX(-${cur*100}%)`;
+  document.querySelectorAll(`#d-${uid} .carrusel-dot`).forEach((d,i) => d.classList.toggle('active', i===cur));
+};
+window.carruselIr = (uid, idx) => {
+  const c = document.getElementById(`c-${uid}`);
+  if (!c) return;
+  c.querySelector('.carrusel-track').style.transform = `translateX(-${idx*100}%)`;
+  document.querySelectorAll(`#d-${uid} .carrusel-dot`).forEach((d,i) => d.classList.toggle('active', i===idx));
+};
+
+// ── SCROLL REVEAL ──────────────────────────────────────
+new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold:0.1 }).observe = (() => {
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold:0.1 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  return obs.observe.bind(obs);
+})();
+
+// ── SKILL BARS ─────────────────────────────────────────
+new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) e.target.style.width = (parseInt(e.target.dataset.level)/5*100)+'%';
+  });
+}, { threshold:0.3 }).observe = (() => {
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.style.width = (parseInt(e.target.dataset.level)/5*100)+'%';
+    });
+  }, { threshold:0.3 });
+  document.querySelectorAll('.tool-fill').forEach(b => obs.observe(b));
+  return obs.observe.bind(obs);
+})();
+
+// ── BACK TO TOP ────────────────────────────────────────
+const btt = document.getElementById('back-to-top');
+window.addEventListener('scroll', () => btt.classList.toggle('visible', window.scrollY > 300));
+btt.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
+
+// ── IDIOMA ─────────────────────────────────────────────
+const T = {
+  es: {
+    navExperiencia:"Experiencia", navSkills:"Skills", navIA:"IA", navProyectos:"Proyectos", navAportar:"Aportar", navContacto:"Contacto",
+    heroPill:"✦ Buenos Aires, Argentina", heroRol:"Growth Product Designer Jr. + UX/UI Strategist Jr.",
+    heroBio1:"¡Hola! Soy Macarena, una Growth Product Designer Jr. que une diseño UX, marketing digital y growth hacking para generar impacto real. Me encanta crear piezas atractivas, cómodas y que conviertan.",
+    heroBio2:"✨ Diseño UX: Interfaces intuitivas con Figma y Adobe XD.\n📈 Growth: Landing pages optimizadas y Ads estratégicas.\n🎨 Diseño integral: Identidad visual, posts, emails y automatizaciones.",
+    btnProyectos:"Ver proyectos", btnContacto:"Enviar mensaje", btnFigma:"Ver presentación",
+    skillTitulo:"Lo que puedo hacer", skillEspanol:"Español", skillIngles:"Inglés", skillNativo:"nativo",
+    expEyebrow:"✦ Trayectoria", expTitulo:"experiencia",
+    skillsEyebrow:"✦ Skills", skillsTitulo:"Herramientas", skillsTituloSpan:"y tecnologías",
+    estudiosTitulo:"Estudios y cursos", designCat:"Diseño", devCat:"Desarrollo", marketingCat:"Marketing & Growth", iaCat:"IA & Despliegue",
+    iaEyebrow:"✦ Inteligencia Artificial", iaSubtitulo:"No solo diseño y desarrollo, sino que potencio mi trabajo con inteligencia artificial para ser más rápida, eficiente y estar al nivel.",
+    iaCard1Titulo:"Creative Technologist", iaCard1Desc:"Uso asistentes de IA como ChatGPT, Cursor y Bolt.new para generar y depurar código en React, Astro, HTML/CSS/JS. Creo experiencias digitales completas sin ser experta programadora.",
+    iaCard2Titulo:"Diseño aumentado", iaCard2Desc:"Con v0.dev y Galileo AI acelero la creación de wireframes y propuestas de diseño que luego personalizo en Figma.",
+    iaCard3Titulo:"Contenido inteligente", iaCard3Desc:"Genero copys, estrategias de contenido y flujos de marketing con ayuda de IA, integrando en Klaviyo o HubSpot.",
+    iaCard4Titulo:"Despliegue y publicación", iaCard4Desc:"Conozco Vercel, Netlify y otras plataformas para publicar proyectos rápidamente. Este portfolio está preparado para subir a Vercel con un solo comando.",
+    aportarEyebrow:"✨ Mi valor diferencial", aportarTitulo:"¿En qué puedo aportar?",
+    aportarSubtitulo:"Estas son mis áreas de expertise para potenciar tu proyecto:",
+    aportarBadge:"La candidata que estabas buscando", aportarFooter:"Diseño + Estrategia + IA · Todo en uno",
+    footerTitulo:"¿Trabajamos junt@s?", footerSub:"Siempre abierta a nuevos proyectos y colaboraciones",
+    footerCopyright:"© 2025 Macarena Melo · Hecho con ♡ desde Buenos Aires", langBtn:"🇺🇸 EN"
+  },
+  en: {
+    navExperiencia:"Experience", navSkills:"Skills", navIA:"AI", navProyectos:"Projects", navAportar:"Value", navContacto:"Contact",
+    heroPill:"✦ Buenos Aires, Argentina", heroRol:"Growth Product Designer Jr. + UX/UI Strategist Jr.",
+    heroBio1:"Hi! I'm Macarena, a Growth Product Designer Jr. who combines UX design, digital marketing and growth hacking to create real impact. I love creating attractive, comfortable pieces that convert.",
+    heroBio2:"✨ UX Design: Intuitive interfaces with Figma and Adobe XD.\n📈 Growth: Optimized landing pages and strategic Ads.\n🎨 Integral design: Visual identity, posts, emails and automations.",
+    btnProyectos:"View projects", btnContacto:"Send message", btnFigma:"View presentation",
+    skillTitulo:"What I can do", skillEspanol:"Spanish", skillIngles:"English", skillNativo:"native",
+    expEyebrow:"✦ Journey", expTitulo:"experience",
+    skillsEyebrow:"✦ Skills", skillsTitulo:"Tools", skillsTituloSpan:"& technologies",
+    estudiosTitulo:"Studies & courses", designCat:"Design", devCat:"Development", marketingCat:"Marketing & Growth", iaCat:"AI & Deployment",
+    iaEyebrow:"✦ Artificial Intelligence", iaSubtitulo:"I don't just design and develop, I empower my work with artificial intelligence to be faster, more efficient and cutting-edge.",
+    iaCard1Titulo:"Creative Technologist", iaCard1Desc:"I use AI assistants like ChatGPT, Cursor and Bolt.new to generate and debug code in React, Astro, HTML/CSS/JS. I create complete digital experiences without being an expert programmer.",
+    iaCard2Titulo:"Augmented design", iaCard2Desc:"With v0.dev and Galileo AI I accelerate wireframing and design proposals, then customize them in Figma.",
+    iaCard3Titulo:"Smart content", iaCard3Desc:"I generate copy, content strategies and marketing flows with AI assistance, integrating into Klaviyo or HubSpot.",
+    iaCard4Titulo:"Deployment & publishing", iaCard4Desc:"I know Vercel, Netlify and other platforms to quickly publish projects. This portfolio is ready to deploy to Vercel with one command.",
+    aportarEyebrow:"✨ My value", aportarTitulo:"How can I contribute?",
+    aportarSubtitulo:"These are my areas of expertise to enhance your project:",
+    aportarBadge:"The candidate you were looking for", aportarFooter:"Design + Strategy + AI · All in one",
+    footerTitulo:"Let's work together?", footerSub:"Always open to new projects and collaborations",
+    footerCopyright:"© 2025 Macarena Melo · Made with ♡ from Buenos Aires", langBtn:"🇦🇷 ES"
+  }
+};
+
+let lang = 'es';
+function setLang(l) {
+  const t = T[l], $ = id => document.getElementById(id);
+  $('nav-experiencia').textContent = t.navExperiencia;
+  $('nav-skills').textContent      = t.navSkills;
+  $('nav-ia').textContent          = t.navIA;
+  $('nav-proyectos').textContent   = t.navProyectos;
+  $('nav-aportar').textContent     = t.navAportar;
+  $('nav-contacto').textContent    = t.navContacto;
+  $('lang-btn').textContent        = t.langBtn;
+  $('hero-pill').textContent       = t.heroPill;
+  $('hero-rol').textContent        = t.heroRol;
+  $('hero-bio1').textContent       = t.heroBio1;
+  $('hero-bio2').innerHTML         = t.heroBio2.replace(/\n/g,'<br>');
+  $('btn-proyectos').querySelector('span').textContent = t.btnProyectos;
+  $('btn-contacto').querySelector('span').textContent  = t.btnContacto;
+  $('btn-figma').querySelector('span').textContent     = t.btnFigma;
+  $('skill-titulo').textContent    = t.skillTitulo;
+  $('skill-espanol').textContent   = t.skillEspanol;
+  $('skill-ingles').textContent    = t.skillIngles;
+  $('skill-nativo').textContent    = t.skillNativo;
+  $('exp-eyebrow').textContent     = t.expEyebrow;
+  $('exp-titulo').textContent      = t.expTitulo;
+  $('skills-eyebrow').textContent  = t.skillsEyebrow;
+  $('skills-titulo').textContent   = t.skillsTitulo;
+  $('skills-titulo-span').textContent = t.skillsTituloSpan;
+  $('estudios-titulo').textContent = t.estudiosTitulo;
+  $('design-cat').textContent      = t.designCat;
+  $('dev-cat').textContent         = t.devCat;
+  $('marketing-cat').textContent   = t.marketingCat;
+  $('ia-cat').textContent          = t.iaCat;
+  $('ia-eyebrow').textContent      = t.iaEyebrow;
+  $('ia-subtitulo').textContent    = t.iaSubtitulo;
+  $('ia-card1-titulo').textContent = t.iaCard1Titulo;
+  $('ia-card1-desc').textContent   = t.iaCard1Desc;
+  $('ia-card2-titulo').textContent = t.iaCard2Titulo;
+  $('ia-card2-desc').textContent   = t.iaCard2Desc;
+  $('ia-card3-titulo').textContent = t.iaCard3Titulo;
+  $('ia-card3-desc').textContent   = t.iaCard3Desc;
+  $('ia-card4-titulo').textContent = t.iaCard4Titulo;
+  $('ia-card4-desc').textContent   = t.iaCard4Desc;
+  $('aportar-eyebrow').textContent = t.aportarEyebrow;
+  $('aportar-titulo').textContent  = t.aportarTitulo;
+  $('aportar-subtitulo').textContent = t.aportarSubtitulo;
+  $('aportar-badge').querySelector('span:last-child').textContent = `"${t.aportarBadge}"`;
+  $('aportar-footer').textContent  = t.aportarFooter;
+  $('footer-titulo').textContent   = t.footerTitulo;
+  $('footer-sub').textContent      = t.footerSub;
+  $('footer-copyright').textContent = t.footerCopyright;
+}
+document.getElementById('lang-btn').addEventListener('click', () => { lang = lang==='es'?'en':'es'; setLang(lang); });
+setLang('es');
+</script>
+</body>
+</html>
