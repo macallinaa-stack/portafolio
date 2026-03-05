@@ -148,11 +148,11 @@ const translations = {
     aportarEyebrow:"✨ Mi valor diferencial", aportarTitulo:"¿En qué puedo aportar?",
     aportarSubtitulo:"Estas son mis áreas de expertise para potenciar tu proyecto:",
     aportarBadge:"La candidata que estabas buscando", aportarFooter:"Diseño + Estrategia + IA · Todo en uno",
-    footerTitulo:"¿Trabajamos juntas?", footerSub:"Siempre abierta a nuevos proyectos y colaboraciones",
+    footerTitulo:"¿Trabajamos junt@s?", footerSub:"Siempre abierta a nuevos proyectos y colaboraciones",
     footerCopyright:"© 2025 Macarena Melo · Hecho con ♡ desde Buenos Aires",
     langBtn:"🇺🇸 EN",
     iaEyebrow:"✦ Inteligencia Artificial", iaTitulo:"Potenciada",
-    iaSubtitulo:"No solo diseño y desarrollo, sino que potencio mi trabajo con inteligencia artificial para ser más rápida, eficiente y estar a la vanguardia.",
+    iaSubtitulo:"No solo diseño y desarrollo, sino que potencio mi trabajo con inteligencia artificial para ser más rápida, eficiente y estar al nivel.",
     iaCard1Titulo:"Creative Technologist", iaCard1Desc:"Uso asistentes de IA como ChatGPT, Cursor y Bolt.new para generar y depurar código en React, Astro, HTML/CSS/JS. Creo experiencias digitales completas sin ser experta programadora.",
     iaCard2Titulo:"Diseño aumentado", iaCard2Desc:"Con v0.dev y Galileo AI acelero la creación de wireframes y propuestas de diseño que luego personalizo en Figma.",
     iaCard3Titulo:"Contenido inteligente", iaCard3Desc:"Genero copys, estrategias de contenido y flujos de marketing con ayuda de IA, integrando en Klaviyo o HubSpot.",
@@ -291,7 +291,7 @@ section { position:relative; z-index:1 }
 }
 #modal-body { max-width:100%; max-height:90vh; display:flex; align-items:center; justify-content:center; }
 #modal-body img, #modal-body video {
-  max-width:min(100%, 620px); max-height:78vh; width:auto; height:auto; margin:0 auto;
+  max-width:100%; max-height:85vh;
   object-fit:contain; border-radius:8px;
   box-shadow:0 20px 40px rgba(0,0,0,.5); display:block;
 }
@@ -962,7 +962,7 @@ footer h2 { font-family:var(--font-serif); font-size:clamp(2.5rem,5vw,3rem); fon
       <span class="section-eyebrow" id="ia-eyebrow">✦ Inteligencia Artificial</span>
       <h2 class="section-title" id="ia-titulo">Potenciada <span class="accent">por IA</span></h2>
       <p style="max-width:700px;margin:1rem auto 0;color:var(--text-soft)" id="ia-subtitulo">
-        No solo diseño y desarrollo, sino que potencio mi trabajo con inteligencia artificial para ser más rápida, eficiente y estar a la vanguardia.
+        No solo diseño y desarrollo, sino que potencio mi trabajo con inteligencia artificial para ser más rápida, eficiente y estar al nivel.
       </p>
     </div>
     <div class="ia-grid">
@@ -991,9 +991,6 @@ footer h2 { font-family:var(--font-serif); font-size:clamp(2.5rem,5vw,3rem); fon
         <div class="ia-tags"><span class="ia-tag">Vercel</span><span class="ia-tag">Netlify</span><span class="ia-tag">GitHub</span></div>
       </div>
     </div>
-    <p style="margin-top:2.5rem;text-align:center;font-size:.8rem;color:var(--text-soft);max-width:700px;margin-left:auto;margin-right:auto;line-height:1.6;">
-      <span style="color:var(--accent);font-weight:600;">*</span> Este portfolio fue diseñado y desarrollado por mí misma utilizando <strong>Astro</strong>, <strong>React.js</strong> y desplegado en <strong>Vercel</strong> — como demostración práctica de mis capacidades como Creative Technologist. ✨
-    </p>
   </div>
 </section>
 
@@ -1074,7 +1071,7 @@ footer h2 { font-family:var(--font-serif); font-size:clamp(2.5rem,5vw,3rem); fon
 
 <!-- FOOTER -->
 <footer id="contacto">
-  <h2 class="reveal" id="footer-titulo">¿Trabajamos juntas?</h2>
+  <h2 class="reveal" id="footer-titulo">¿Trabajamos junt@s?</h2>
   <p class="footer-sub reveal delay-1" id="footer-sub">Siempre abierta a nuevos proyectos y colaboraciones</p>
   <div class="footer-links reveal delay-1">
     <a href={`https://mail.google.com/mail/?view=cm&to=${email}`} target="_blank" rel="noopener noreferrer">
@@ -1265,7 +1262,7 @@ const T = {
     expEyebrow:"✦ Trayectoria", expTitulo:"experiencia",
     skillsEyebrow:"✦ Skills", skillsTitulo:"Herramientas", skillsTituloSpan:"y tecnologías",
     estudiosTitulo:"Estudios y cursos", designCat:"Diseño", devCat:"Desarrollo", marketingCat:"Marketing & Growth", iaCat:"IA & Despliegue",
-    iaEyebrow:"✦ Inteligencia Artificial", iaSubtitulo:"No solo diseño y desarrollo, sino que potencio mi trabajo con inteligencia artificial para ser más rápida, eficiente y estar a la vanguardia.",
+    iaEyebrow:"✦ Inteligencia Artificial", iaSubtitulo:"No solo diseño y desarrollo, sino que potencio mi trabajo con inteligencia artificial para ser más rápida, eficiente y estar al nivel.",
     iaCard1Titulo:"Creative Technologist", iaCard1Desc:"Uso asistentes de IA como ChatGPT, Cursor y Bolt.new para generar y depurar código en React, Astro, HTML/CSS/JS. Creo experiencias digitales completas sin ser experta programadora.",
     iaCard2Titulo:"Diseño aumentado", iaCard2Desc:"Con v0.dev y Galileo AI acelero la creación de wireframes y propuestas de diseño que luego personalizo en Figma.",
     iaCard3Titulo:"Contenido inteligente", iaCard3Desc:"Genero copys, estrategias de contenido y flujos de marketing con ayuda de IA, integrando en Klaviyo o HubSpot.",
@@ -1273,7 +1270,7 @@ const T = {
     aportarEyebrow:"✨ Mi valor diferencial", aportarTitulo:"¿En qué puedo aportar?",
     aportarSubtitulo:"Estas son mis áreas de expertise para potenciar tu proyecto:",
     aportarBadge:"La candidata que estabas buscando", aportarFooter:"Diseño + Estrategia + IA · Todo en uno",
-    footerTitulo:"¿Trabajamos juntas?", footerSub:"Siempre abierta a nuevos proyectos y colaboraciones",
+    footerTitulo:"¿Trabajamos junt@s?", footerSub:"Siempre abierta a nuevos proyectos y colaboraciones",
     footerCopyright:"© 2025 Macarena Melo · Hecho con ♡ desde Buenos Aires", langBtn:"🇺🇸 EN"
   },
   en: {
